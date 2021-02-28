@@ -1,0 +1,194 @@
+<html>
+  <style>
+    ul {
+        list-style-type: none;
+        overflow: hidden;
+    }
+
+    li {
+        float: right;
+    }
+
+    li a {
+        color:#707070;
+        display: block;
+        text-align: center;
+        padding: 10px 10px;
+        font-size: 13px;
+        font-family:Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        
+    }
+
+    li a:hover {
+        text-decoration: none;
+    }
+
+    .apki {
+        height: 25px;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .konto {
+        height: 35px;
+        position: relative;
+        bottom: 10px;
+        border-radius:25px;
+    }
+
+    .logo {
+        display: block;
+        margin-top: 200px;
+        margin-bottom: 25px;
+        text-align:center;
+    }
+
+    
+    .bar {
+        margin:0 auto;
+        border:1px solid #c6c6c6 ;
+        width: 600px;
+        border-radius:30px;
+    }
+
+    .bar:hover{
+        box-shadow: 1px 1px 8px 1px #c6c6c6;
+    }
+
+    .bar:focus-within{
+        box-shadow: 1px 1px 8px 1px #c6c6c6;
+        outline:none;
+    }
+
+    .wyszukiwarka {
+        height:50px;
+        width:550px;
+        border:none;
+        outline:none;
+        font-size: 16px;
+    }
+
+    .klawiatura {
+        height:13px;
+        position:relative;
+        left:-10px;    
+    }
+
+    .lupka {
+        height:15px;
+        top:3px;
+        position:relative;
+        left:15px;
+    }
+
+    .przyciski {
+        margin-top:30px;
+        text-align: center;
+    }
+
+    .przycisk {
+        background-color: #ededed;
+        border:none;
+        color: #707070;
+        padding: 10px 20px;
+        font-size: 13px;
+        border-radius: 5px;
+        outline:none;
+        margin:5px;
+    }
+    .przycisk:hover {
+        border: 1px solid #b8b8b8;
+        padding: 9px 19px;
+        color:#808080;
+    }
+    .przycisk:focus{
+        border:1px solid #4885ed;
+        padding: 9px 19px;
+    }
+
+    .dol {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        border-top: 1px solid #e4e4e4;
+        background-color: #f2f2f2;
+        margin-top:600px;
+        text-decoration: none;
+        
+    }
+    .footer div ul {
+        list-style: none;
+        display: flex;
+        text-decoration: none;
+        
+    }
+    .footer div ul li {
+        padding-left: 27px;
+        text-decoration: none;
+    }
+    
+</style>
+
+        <body>
+<header> 
+    <div class="gora">
+    <ul>
+        <li><a href="https://github.com/7uras"><img class="konto" src="https://avatars.githubusercontent.com/u/79746464?s=460&v=4" title="Konto"></a></li>
+        <li><a href="https://www.google.pl/intl/pl/about/products"><img class="apki" src="https://cdn3.iconfinder.com/data/icons/navigation-and-settings/24/Material_icons-01-11-512.png" title="Aplikacje Google"></a></li>
+        <li><a href="https://www.google.pl/imghp?hl=pl&ogbl">Grafika</a></li>
+        <li> <a href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
+    </ul>
+    </div>
+</header>
+
+<main>
+    <div class="logo">
+             <img alt="google" float="center"src= https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png height="90px">
+    </div>
+
+    <div class="bar">
+        <img class="lupka" src="https://cdn.pixabay.com/photo/2015/12/14/20/35/magnifier-1093183_1280.png"></a>
+        <input class="wyszukiwarka" type="text" title="wyszukaj">
+        <a href="http://polish.keyboard.su/"><img class="klawiatura" src="https://www.gstatic.com/inputtools/images/tia.png" title="Klawiatura ekranowa"></a>
+    </div>
+
+    <div class="przyciski">
+        <button class="przycisk" type="button">Pytaj Gugla</button>
+        <button class="przycisk" type="button">Tu nie pytaj</button>
+</div>
+
+<footer class="dol">
+    <div>
+      <ul class="footer__list">
+        <li class="footer__item" style="padding-left: 0;">
+          <a href="#" class="footer__link">Jak dziala wyszukiwarka</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Dla firm</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Reklamuj sie</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">O nas</a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <ul class="footer__list">
+        <li class="footer__item" style="padding-left: 0;">
+          <a href="#" class="footer__link">Ustawienia</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Warunki</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Prywatnosc</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
